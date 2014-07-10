@@ -3,6 +3,8 @@ An easy way to insert Glyphicons Halflings into Redactor.
 
 Made because I'm lazy :)
 
+[View demo](http://calamityjames.github.io/redactor-glyphicons-plugin/example.html)
+
 ## You will need
 - [Redactor](http://imperavi.com/redactor/), an awesome WYSIWYG editor
 - [Glyphicons Halflings](http://glyphicons.com/) (included by default if you use Bootstrap)
