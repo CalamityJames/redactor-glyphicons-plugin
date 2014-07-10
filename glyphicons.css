@@ -1,0 +1,42 @@
+.redactor_glyphs_box {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	max-height: 250px;
+	overflow-y: scroll;
+}
+.redactor_glyphs_box li {
+	display: inline;
+	padding: 0px;
+	float:left;
+
+}
+.redactor_glyphs_box li:first-child {
+	border-top: none;
+}
+.redactor_glyphs_box li:last-child {
+	border-bottom: none;
+}
+.redactor_glyphs_box li a {
+	color: #000;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+
+}
+.redactor_glyphs_box li a:hover {
+	background-color: #ccc;
+	border-radius: 2px;
+}
+/*
+Cheeky hack to use Glyphicons font for the Glyphicons button.
+As you're using this to INSERT a glyphicon,
+you must have the font available :)
+*/
+.re-glyphicons {
+	font-family: 'Glyphicons Halflings';
+}
+.re-glyphicons:before {
+	content: "\2a";
+}
